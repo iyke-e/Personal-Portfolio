@@ -10,7 +10,7 @@
         position: fixed;
         background-color: hsla(247, 94%, 7%, 0.8);
         z-index: -9;
-        padding-block: 2rem 1.5rem;
+        padding-block: 1.5rem;
     }
 
     header::before {
