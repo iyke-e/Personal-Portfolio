@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO</title>
+    <link rel="icon" href="images/ei logo.svg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tablet.css">
+    <link rel="stylesheet" href="mini-tablet.css">
+
+    <link rel="stylesheet" href="mobile.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+
+    </script>
+
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("NHfkPg4h8iHr_A-Qr");
+        })();
+    </script>
+
+
+
+    <script defer src="main.js"></script>
+</head>
+
+<body>
+    <header class="flex" id="header">
+        <img class="logo" src="images/ei logo.svg" alt="">
+        <div class="hide">
+            <i id="hamburger" class="fa-solid fa-bars"></i>
+        </div>
+        <div class="flex nav">
+            <nav>
+                <ul>
+                    <li class="navli">
+                        <a href=" #hero">
+                            <i class="fa-solid fa-house "></i>
+                            <span>HOME</span>
+
+                        </a>
+                    </li>
+                    <li class="navli">
+                        <a href="#aboutMe">
+                            <i class="fa-solid fa-user "></i>
+                            <span>ABOUT</span>
+
+                        </a>
+                    </li>
+                    <li class="navli">
+                        <a href=" #project ">
+                            <i class="fa-solid fa-folder"></i>
+                            <span>PROJECTS</span>
+                        </a>
+                    </li>
+                    <li class="navli">
+                        <a href=" #contact ">
+                            <i class=" fa-solid fa-phone "></i>
+                            <span>CONTACT</span>
+
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="resume">
+                <a href="" class="btn" role="button">Resume</a>
+            </div>
+        </div>
+
+
+
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+
+            <div class="hero__text__container">
+                <p class="accent btm-padding">Hi, my name is</p>
+                <h1>Egwim Iyke <br> <span class="text"></span></h1>
+                <p class="btm-padding">I’m a self-taught frontend developer specialising in creating beautiful,<br>
+                    scalable and responsive websites and applications.</p>
+
+                <div>
+                    <a href="#project" class="btn" role="button">View My Work</a>
+                </div>
+            </div>
+            <div class="hero__img__container">
+                <object data="images/hero-img.svg"></object>
+
+            </div>
+        </section>
+
+        <section class="about" id="aboutMe">
+            <h2>About me</h2>
+            <div class="about_container">
+                <div>
+                    <img src="images/Frame 2.png" alt="">
+                </div>
+                <div class="about_text">
+                    <p>
+                        Hi, My name is Egwim Ikechukwu, <br><br> I'm a Frontend developer with experience in building
+                        responsive web pages from design to deployment. Taking into consideration, users experience,
+                        code reusability and efficiency. <br> <br>I
+                        have a keen eye for good design, and a creative mind for building profitable products that
+                        satisfies user requirements and experiences.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="skills" id="skills">
+
+            <h2 data-aos="fade-up">My tech stack</h2>
+
+            <div class="flex tech">
+                <div class="tech_Icons" data-aos="slide-right">
+                    <i class="fa-brands fa-html5"></i>
+                    <h4>HTML5</h4>
+                </div>
+
+                <div class="tech_Icons" data-aos="flip-left">
+                    <i class="fa-brands fa-css3-alt"></i>
+                    <h4>CSS3</h4>
+                </div>
+                <div class="tech_Icons" data-aos="flip-right">
+                    <i class="fa-brands fa-square-js"></i>
+                    <h4>Javascript</h4>
+                </div>
+                <div class="tech_Icons" data-aos="slide-left">
+                    <i class="fa-brands fa-react"></i>
+                    <h4>React</h4>
+                </div>
+                <div class="tech_Icons" data-aos="flip-right">
+                    <i class="fa-brands fa-sass"></i>
+                    <h4>SASS/SCSS</h4>
+                </div>
+                <div class="tech_Icons" data-aos="flip-down">
+                    <i class="fa-brands fa-bootstrap"></i>
+                    <h4>Bootstrap
+
+                </div>
+                <div class="tech_Icons" data-aos="flip-left">
+                    <object data="images/tailwind-css-icon.svg" type=""></object>
+                    <h4>Tailwind CSS</h>
+                </div>
+            </div>
+
+            <h3 class="others" data-aos="fade-up">Others</h3>
+
+            <div class="tech_others flex">
+                <div>
+
+                    <div class="tech_others_container">
+                        <div data-aos="flip-right">
+                            <i class="fa-brands fa-figma"></i>
+                            <h5>Figma</h4>
+                        </div>
+                        <div data-aos="flip-up">
+                            <i class="fa-brands fa-github"></i>
+                            <h5>Github</h4>
+                        </div>
+                        <div data-aos="flip-left">
+                            <svg class="git" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100%"
+                                height="100%" viewBox="0 0 50 60">
+                                <path
+                                    d="M 46.792969 22.089844 L 27.910156 3.207031 C 27.109375 2.402344 26.054688 2 25 2 C 23.945313 2 22.890625 2.402344 22.089844 3.207031 L 18.355469 6.941406 L 22.976563 11.5625 C 24.511719 10.660156 26.511719 10.855469 27.828125 12.171875 C 29.144531 13.488281 29.335938 15.488281 28.433594 17.019531 L 32.976563 21.5625 C 34.511719 20.660156 36.511719 20.855469 37.828125 22.171875 C 39.390625 23.734375 39.390625 26.265625 37.828125 27.828125 C 36.265625 29.390625 33.734375 29.390625 32.171875 27.828125 C 30.855469 26.511719 30.660156 24.511719 31.5625 22.976563 L 27.019531 18.433594 C 26.695313 18.625 26.355469 18.765625 26 18.855469 L 26 31.140625 C 27.722656 31.585938 29 33.136719 29 35 C 29 37.210938 27.210938 39 25 39 C 22.789063 39 21 37.210938 21 35 C 21 33.136719 22.277344 31.585938 24 31.140625 L 24 18.855469 C 23.332031 18.683594 22.695313 18.351563 22.171875 17.828125 C 20.855469 16.511719 20.664063 14.511719 21.566406 12.980469 L 16.941406 8.355469 L 3.207031 22.089844 C 1.597656 23.695313 1.597656 26.304688 3.207031 27.910156 L 22.089844 46.792969 C 22.890625 47.597656 23.945313 48 25 48 C 26.054688 48 27.109375 47.597656 27.910156 46.792969 L 46.792969 27.910156 C 48.402344 26.304688 48.402344 23.695313 46.792969 22.089844 Z">
+                                </path>
+                            </svg>
+                            <h5>Git</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class=" ft-project " id="project">
+            <h2 data-aos="fade-down-right">Built Projects</h2>
+
+            <div class=" ft-project__wrapper ">
+
+                <div class=" ft-project__containers ">
+
+                    <div class=" ft-project__image__container " data-aos="flip-right">
+                        <img src=" images/socialmedia-img.jpeg " alt=" ">
+                    </div>
+
+                    <div class="ft-project__description" data-aos="fade-up-left">
+                        <p class="accent">Featured Project</p>
+                        <h3>Social Media Dashboard</h3>
+                        <p class=" description ">A simple Social Media Dashboard Landing page with dark and light mode
+                            theme toggle
+                        </p>
+                        <div class=" tools ">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                        </div>
+                        <div class=" link ">
+                            <div>
+                                <a href=" https://github.com/iyke-e/social-media-dashboard " target=" _blank ">
+                                    <i class=" fa-brands fa-github "></i>
+                                </a>
+                                <small>Source Code</small>
+                            </div>
+
+                            <div>
+                                <a href=" https://iyke-e.github.io/social-media-dashboard/ " target=" _blank ">
+                                    <i class=" fa-solid fa-arrow-up-right-from-square "></i>
+                                </a>
+                                <small>Live Preview</small>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" ft-project__containers ">
+                    <div class=" ft-project__image__container " data-aos="fade-up-left">
+                        <img src=" images/clipboard-img.jpg " alt=" ">
+                    </div>
+                    <div class=" ft-project__description " data-aos="flip-up">
+                        <p class=" accent ">Featured Project</p>
+                        <h3>Clipboard Landing Page</h3>
+                        <p class=" description "> A simple Frontend Mentor Challenge, created with HTMl and CSS only. it
+                            features some grid and flex layouts.
+                        </p>
+                        <div class=" tools ">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                        </div>
+                        <div class=" link ">
+                            <div>
+                                <a target=" _blank " href=" https://github.com/iyke-e/clipboard-project "><i
+                                        class=" fa-brands fa-github "></i></a>
+                                <small>Source Code</small>
+                            </div>
+                            <div>
+                                <a target=" _blank " href=" https://clipboard-project.pages.dev/ ">
+                                    <i class=" fa-solid fa-arrow-up-right-from-square "></i>
+
+                                    <small>Live Preview</small>
+
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" ft-project__containers ">
+                    <div class=" ft-project__image__container " data-aos="fade-up">
+                        <img src=" images/chatapp-img.jpg " alt=" ">
+                    </div>
+                    <div class=" ft-project__description " data-aos="fade-down">
+                        <p class=" accent ">Featured Project</p>
+                        <h3>Chat App CSS illustration</h3>
+                        <p class=" description ">A simple illustration of a chat app on phone created completely from
+                            scratch using just HTMl and CSS
+                        </p>
+                        <div class=" tools ">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                        </div>
+                        <div class=" link ">
+                            <div>
+                                <a target=" _blank " href=" https://github.com/iyke-e/chat-app-css "><i
+                                        class=" fa-brands fa-github "></i></a>
+
+                                <small>Source Code</small>
+
+
+
+                            </div>
+                            <div>
+                                <a target=" _blank " href=" https://iyke-e.github.io/chat-app-css/ ">
+                                    <i class=" fa-solid fa-arrow-up-right-from-square "></i>
+                                </a>
+                                <small>Live Preview</small>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" ft-project__containers ">
+                    <div class=" ft-project__image__container " data-aos="flip-left">
+                        <img src=" images/sunnyside-img.jpg " alt=" ">
+                    </div>
+                    <div class=" ft-project__description " data-aos="zoom-out-down">
+                        <p class=" accent ">Featured Project</p>
+                        <h3>Sunnyside agency landing page</h3>
+                        <p class=" description ">A simple landing page for sunny side built with html and css.
+                        </p>
+                        <div class=" tools ">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                        </div>
+                        <div class=" link ">
+                            <div>
+                                <a target=" _blank " href=" https://github.com/iyke-e/sunnyside-agency-landing-page "><i
+                                        class=" fa-brands fa-github "></i></a>
+                                <small>Source Code</small>
+
+
+
+                            </div>
+                            <div>
+                                <a target=" _blank " href=" https://iyke-e.github.io/sunnyside-agency-landing-page/ "><i
+                                        class=" fa-solid fa-arrow-up-right-from-square "></i></a>
+                                <small>Live Preview</small>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class=" ft-project__containers ">
+                    <div class=" ft-project__image__container " data-aos="zoom-in-down">
+                        <img src=" images/loopstudio-img.jpg " alt=" ">
+                    </div>
+                    <div class=" ft-project__description " data-aos="zoom-in-up">
+                        <p class=" accent ">Featured Project</p>
+                        <h3>Loopstudios landing page</h3>
+                        <p class=" description ">This is a simple landing page for a loop studio. it was built with pure
+                            html and csss with a tiny bit of Javascript
+                        </p>
+                        <div class=" tools ">
+                            <p>HTML</p>
+                            <p>CSS</p>
+                            <p>Javascript</p>
+                        </div>
+                        <div class=" link ">
+                            <div>
+                                <a target=" _blank " href=" https://github.com/iyke-e/loop-studio-design "><i
+                                        class=" fa-brands fa-github "></i></a>
+                                <small>Source Code</small>
+
+
+
+                            </div>
+                            <div>
+                                <a target=" _blank " href=" https://iyke-e.github.io/loop-studio-design/ "><i
+                                        class=" fa-solid fa-arrow-up-right-from-square "></i></a>
+                                <small>Live Preview</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="more_projects">
+                <h2 data-aos="zoom-out-down">Other Projects</h2>
+
+                <div class="more_project_container ">
+
+                    <div class="more_project_box ">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <i class="fa-solid fa-folder"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <h5>
+                            Some new Project to add
+                        </h5>
+                        <p style="color: red;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nemo eveniet ut, nihil
+                            aliquid
+                            earum doloremque explicabo, recusandae laudantium cupiditate molestias pariatur vero
+                            quibusdam?
+                        </p>
+                        <div class="tools">
+                            <p>HTML</p>
+                            <P>CSS</P>
+                            <p>Javascript</p>
+                        </div>
+                    </div>
+                    <div class="more_project_box ">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <i class="fa-solid fa-folder"></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <h5>
+                            Some new Project to add
+                        </h5>
+                        <p style="color: green;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nemo eveniet ut, nihil
+                            aliquid
+                            earum doloremque explicabo, recusandae laudantium cupiditate molestias pariatur vero
+                            quibusdam?
+                        </p>
+                        <div class="tools">
+                            <p>HTML</p>
+                            <P>CSS</P>
+                            <p>Javascript</p>
+                        </div>
+                    </div>
+                    <div class="more_project_box ">
+                        <ul>
+                            <li>
+                                <a href=" ">
+                                    <i class=" fa-solid fa-folder "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=" ">
+                                    <i class=" fa-solid fa-arrow-up-right-from-square "></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <h5>
+                            Some new Project to add
+                        </h5>
+                        <p style="color: yellow;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nemo eveniet ut, nihil
+                            aliquid
+                            earum doloremque explicabo, recusandae laudantium cupiditate molestias pariatur vero
+                            quibusdam?
+                        </p>
+                        <div class=" tools ">
+                            <p>HTML</p>
+                            <P>CSS</P>
+                            <p>Javascript</p>
+                        </div>
+                    </div>
+                    <div class=" more_project_box  ">
+                        <ul>
+                            <li>
+                                <a href=" ">
+                                    <i class=" fa-solid fa-folder "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=" ">
+                                    <i class=" fa-solid fa-arrow-up-right-from-square "></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <h5>
+                            Some new Project to add
+                        </h5>
+                        <p style="color: purple;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nemo eveniet ut, nihil
+                            aliquid
+                            earum doloremque explicabo, recusandae laudantium cupiditate molestias pariatur vero
+                            quibusdam?
+                        </p>
+                        <div class=" tools ">
+                            <p>HTML</p>
+                            <P>CSS</P>
+                            <p>Javascript</p>
+                        </div>
+                    </div>
+                    <div class=" more_project_box  ">
+                        <ul>
+                            <li>
+                                <a href=" ">
+                                    <i class=" fa-solid fa-folder "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=" ">
+                                    <i class=" fa-solid fa-arrow-up-right-from-square "></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <h5>
+                            Some new Project to add
+                        </h5>
+                        <p style="color: lime;">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nemo eveniet ut, nihil
+                            aliquid
+                            earum doloremque explicabo, recusandae laudantium cupiditate molestias pariatur vero
+                            quibusdam?
+                        </p>
+                        <div class=" tools ">
+                            <p>HTML</p>
+                            <P>CSS</P>
+                            <p>Javascript</p>
+                        </div>
+                    </div>
+                    <div class=" more_project_box  ">
+                        <ul>
+                            <li>
+                                <a href=" ">
+                                    <i class=" fa-solid fa-folder "></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a href=" ">
+                                    <i class=" fa-solid fa-arrow-up-right-from-square "></i>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <h5>
+                            Some new Project to add
+                        </h5>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non nemo eveniet ut, nihil
+                            aliquid
+                            earum doloremque explicabo, recusandae laudantium cupiditate molestias pariatur vero
+                            quibusdam?
+                        </p>
+                        <div class=" tools ">
+                            <p>HTML</p>
+                            <P>CSS</P>
+                            <p>Javascript</p>
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+
+            </div>
+            <div class=" view-more btn" id="view-more" role=" button ">
+                Show More Projects
+            </div>
+
+        </section>
+
+        <section class=" contact " id="contact">
+            <h2 data-aos="fade-down">Contact Me</h2>
+
+            <div class=" flex contact_col ">
+                <div class=" contact_txt " data-aos="zoom-out-up">
+                    <h3>Let's Talk</h3>
+                    <p>I am always in for a good conversation. <br>whether it's for your exciting idea or just for fun.
+                        You can drop a message via the form below, so i can reach out to you. <br><br> Looking forward
+                        to working with you on that next amazing
+                        idea.
+
+                        <br>Let's talk about you next project. You can also reach me via the following channels or drop
+                        a message using the form below
+                        <br><br>
+                    <div>
+
+                        <h5>
+                            <i class=" fa-solid fa-phone "></i> Phone No:
+                        </h5>
+                        <p>+234 810 7027 244</p>
+                    </div>
+                    <div>
+
+                        <h5>
+                            <i class=" fa-brands fa-whatsapp "></i> Whatsapp No:
+                        </h5>
+                        <p>+234 810 7027 244</p>
+                    </div>
+                    <div>
+
+                        <h5>
+                            <i class=" fa-solid fa-envelope "></i> Email Address:
+                        </h5>
+                        <p>ikegwimik@gmail.com</p>
+                    </div>
+                    <img src=" images/contact 3.svg " alt=" ">
+                </div>
+                <div>
+
+                    <form action="" method="POST" data-aos="zoom-out-down ">
+                        <label for=" fullName ">
+                            <p>Full Name</p>
+                            <input name="Full Name" id="fullName" type=" text " placeholder=" Enter Full Name ">
+                        </label>
+
+
+                        <label for=" email ">
+                            <p>Email</p>
+                            <input name="Email Address" id="email" type="email" placeholder=" Enter your email ">
+                        </label>
+
+
+                        <label for=" message ">
+                            <p>Message</p>
+                            <textarea name="Message" id="message" rows=" 10 "
+                                placeholder=" Enter your message "></textarea>
+                        </label>
+                        <button onclick="sendMail()" id="sendBtn" class="btn">
+                            send
+                        </button>
+
+
+
+                    </form>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class=" footer-row ">
+            <div class=" logo ">
+                <img src=" images/ei logo.svg " alt=" ">
+            </div>
+            <div>
+                <ul class="footer_nav">
+                    <li><a href=" #header ">HOME</a></li>
+                    <li><a href=" #about ">ABOUT</a></li>
+                    <li><a href=" #project ">PROJECTS</a></li>
+                    <li><a href=" #contact ">CONTACT</a></li>
+                </ul>
+            </div>
+            <div>
+                <ul class="footer_icon">
+                    <li>
+                        <a href=" "><i class=" fa-brands fa-twitter "></i></a>
+                    </li>
+                    <li>
+                        <a target=" _blank " href=" https://www.linkedin.com/in/egwim/ "><i
+                                class=" fa-brands fa-linkedin "></i></a>
+                    </li>
+                    <li>
+                        <a target=" _blank " href=" https://github.com/iyke-e ">
+                            <i class=" fa-brands fa-github "></i></a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class=" copyright ">
+            <p>&copy 2023 iyke.io</p>
+        </div>
+
+    </footer>
+
+    <script src=" https://cdn.jsdelivr.net/npm/typed.js@2.0.12 "></script>
+    <script>
+        var typed = new Typed(" .text ", {
+            strings: [
+                " Frontend Developer "
+            ],
+            typeSpeed: 150,
+            backSpeed: 150,
+            loop: true
+        });
+    </script>
+
+
+
+
+    <script src=" https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script>
+        AOS.init({
+            offset: 100,
+            duration: 1500,
+            easeing: " ease-in-out"
+        });
+    </script>
+
+
+</body>
+
+</html>

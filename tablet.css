@@ -1,0 +1,64 @@
+@media (min-width:900px) and (max-width: 1240px) {
+
+    :root {
+        --side-padding: 2.5rem
+    }
+
+
+    header::before {
+        left: 30%;
+        transform: translateX(-50%);
+        z-index: -999999;
+    }
+
+    h2 {
+        font-size: 2rem;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+    }
+
+
+    .about_text p {
+        width: 45vw;
+    }
+
+    .about img {
+        height: 50vw;
+    }
+
+    .ft-project img {
+        width: 55vw;
+    }
+
+
+    .description {
+        width: 40vw;
+    }
+
+    .show {
+        height: 75rem;
+    }
+
+    .contact {
+        width: 100%;
+    }
+
+    .contact_col {
+        gap: 1rem;
+    }
+
+    .contact_txt {
+        max-width: 35vw;
+    }
+
+    .contact_txt br {
+        display: none;
+    }
+
+    form {
+        width: 50vw;
+        padding: 2rem;
+    }
+}

@@ -1,0 +1,168 @@
+@media (max-width:460px) {
+    :root {
+        --side-padding: 1rem;
+    }
+
+
+    p {
+        font-size: 0.8125rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+    }
+
+    h4 {
+        font-size: 1rem;
+    }
+
+
+    .hero__img__container {
+        display: block;
+        width: 90%;
+        max-width: 450px;
+        position: absolute;
+        right: -40%;
+        top: 55%;
+        opacity: 0.4;
+        animation: slidein 2s backwards !important;
+
+    }
+
+    @keyframes slidein {
+        0% {
+            transform: translate(100%);
+        }
+
+        100% {
+            transform: translate(0);
+        }
+
+    }
+
+    .about {
+        padding-block: 4rem 1rem;
+        max-height: fit-content;
+    }
+
+    .about_text p {
+        padding-inline: 1.5rem;
+        background: hsla(245, 17%, 29%, 30%);
+        text-align: justify;
+    }
+
+    .about_container {
+        margin-block: 3rem;
+    }
+
+    .skills {
+        margin-block-start: 1rem;
+        padding-block: 2rem 1rem;
+    }
+
+    .tech_Icons {
+        width: 8rem;
+        height: 10rem;
+    }
+
+    .tech_Icons i {
+        padding-bottom: 1rem;
+    }
+
+    .others {
+        padding-block: 3rem 1rem;
+    }
+
+    .tech_others {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .tech_others_container {
+        width: 100%;
+    }
+
+    .ft-project h2 {
+        font-size: 1.5rem;
+    }
+
+    .description {
+        padding-inline: 1rem;
+    }
+
+
+    .ft-project__description h3 {
+        font-size: 1rem;
+    }
+
+    .ft-project__image__container,
+    .description {
+        width: 90vw;
+    }
+
+
+    .link a i {
+        font-size: 1.5rem;
+    }
+
+    .more_projects {
+        margin-block-start: 2rem;
+    }
+
+    .more_projects h2 {
+        font-size: 1.5rem;
+        margin-block: 2rem;
+    }
+
+    .contact {
+        margin-block-start: 4rem;
+        padding-block-end: 3rem;
+
+    }
+
+    .contact p {
+        max-width: 100%;
+        text-align: justify;
+    }
+
+    .contact h5 {
+        text-align: justify;
+    }
+
+    .contact_txt {
+        padding: 1rem;
+    }
+
+    .contact_txt::after {
+        left: -10%;
+    }
+
+    .contact_col img {
+        width: 100%;
+    }
+
+    form {
+        width: 90vw;
+        aspect-ratio: 1;
+        padding: 1.5rem;
+    }
+
+    .btn {
+        padding: 0.6rem 0.8rem;
+        font-size: 0.8rem;
+        margin-block-start: 1rem;
+    }
+
+    .hero :has(.btn) {
+        margin-block-start: 1rem;
+    }
+}
