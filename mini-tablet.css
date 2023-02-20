@@ -17,6 +17,10 @@
         display: none;
     }
 
+    .hero .accent {
+        display: block;
+    }
+
     .logo {
         z-index: -99;
         width: 1.5rem;
@@ -162,6 +166,7 @@
     .about img {
         height: fit-content;
         max-width: 30rem;
+        width: 80vw;
     }
 
 
