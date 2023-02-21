@@ -671,7 +671,7 @@
     form {
         display: grid;
         width: 40vw;
-        padding: 3rem;
+        padding: 2rem;
         background-color: var(--tech-background);
         border-radius: 20px;
         box-shadow: 0, 0, 0.5, rgba(172, 47, 47, 0.2);
@@ -680,11 +680,25 @@
     label {
         color: var(--white);
         display: block;
-        margin-bottom: 1.5rem;
+        margin-bottom: 0.5rem;
     }
 
     label p {
-        padding-bottom: 0.5rem;
+        padding-bottom: 0.3rem;
+    }
+
+    label.success :is(input, textarea) {
+        border: 1px solid rgb(255, 11, 11);
+    }
+
+    label.error :is(input, textarea) {
+        border: 1px solid rgb(0, 206, 0);
+    }
+
+    label .error {
+        color: rgb(255, 11, 11);
+        font-size: 9px;
+        height: 13px;
     }
 
     input,
@@ -702,6 +716,11 @@
 
     textarea {
         line-height: 1.5;
+    }
+
+    :is(input,
+        textarea):focus {
+        outline: 0;
     }
 
     :is(input,

@@ -92,8 +92,19 @@ function sendMail() {
     });
 }
 
-const submitBtn = document.querySelector("#sendBtn");
+const form = document.querySelector("form");
+const fullname = document.querySelector("#fullName");
+const email = document.querySelector("#email");
+const message = document.querySelector("#message");
 
-submitBtn.addEventListener("click", (e) => {
+form.addEventListener("submit", (e) => {
   e.preventDefault();
+});
+
+const sendBtn = document.querySelector("#sendBtn");
+sendBtn.addEventListener("click", () => {
+  if ((fullname.value || email.value || message.value) !== "") {
+    sendMail();
+  }
+  return;
 });

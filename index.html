@@ -588,30 +588,33 @@
                 </div>
                 <div>
 
-                    <form action="" method="POST" data-aos="zoom-out-down ">
-                        <label for=" fullName ">
+                    <form action="/" method="post" data-aos="zoom-out-down ">
+                        <label for=" fullName " class="input-control">
                             <p>Full Name</p>
-                            <input name="Full Name" id="fullName" type=" text " placeholder=" Enter Full Name ">
+                            <input name="Full Name" id="fullName" type=" text " placeholder=" Enter Full Name "
+                                required>
+                            <div class="error"></div>
                         </label>
 
 
-                        <label for=" email ">
+                        <label for=" email " class="input-control">
                             <p>Email</p>
-                            <input name="Email Address" id="email" type="email" placeholder=" Enter your email ">
+                            <input name="Email Address" id="email" type="email" placeholder=" Enter your email "
+                                required>
+                            <div class="error"></div>
                         </label>
 
 
-                        <label for=" message ">
+                        <label for=" message " class="input-control">
                             <p>Message</p>
-                            <textarea name="Message" id="message" rows=" 10 "
-                                placeholder=" Enter your message "></textarea>
+                            <textarea name="Message" id="message" rows=" 10 " placeholder=" Enter your message "
+                                required></textarea>
+                            <div class="error"></div>
                         </label>
-                        <button onclick="sendMail()" id="sendBtn" class="btn">
+
+                        <button id="sendBtn" class="btn">
                             send
                         </button>
-
-
-
                     </form>
                 </div>
 
