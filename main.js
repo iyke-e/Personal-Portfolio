@@ -103,7 +103,7 @@ form.addEventListener("submit", (e) => {
 
 const sendBtn = document.querySelector("#sendBtn");
 sendBtn.addEventListener("click", () => {
-  if ((fullname.value && email.value && message.value) === "") {
+  if ((fullname.value && email.value && message.value) !== "") {
     sendMail();
   }
   return;
